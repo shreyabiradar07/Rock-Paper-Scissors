@@ -108,10 +108,14 @@ box-shadow: 0 0 10px rgb(167, 103, 87);
     overflow-x: hidden;
   }
   .fa fa-hand-rock-o ,.fa fa-hand-paper-o , .fa fa-hand-scissors-o{
-    font-size: 50px;
+    font-size: 45px;
   }
   
   #result {
-    font-size: 23px;
+    font-size: 20px;
   }
+  .badge{
+ font-size: 14px;
+ padding: 1.5px 5px;
+}
 }
