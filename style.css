@@ -93,3 +93,25 @@ box-shadow: 0 0 10px rgb(167, 103, 87);
   border: 4px solid blue;
   box-shadow: 0 0 10px rgb(84, 169, 202);
 }
+@media only screen and (max-width: 360px) {
+  .choices {
+    margin: 20px 0;
+    padding: 8px;
+    flex-flow: row wrap;
+  }
+  .choice {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0px 4px;
+    padding: 4px;
+    overflow-x: hidden;
+  }
+  .fa fa-hand-rock-o ,.fa fa-hand-paper-o , .fa fa-hand-scissors-o{
+    font-size: 50px;
+  }
+  
+  #result {
+    font-size: 23px;
+  }
+}
