@@ -43,7 +43,7 @@ header > h1{
 #computer-label{
  position: absolute;
  top: 30px;
- right: -45px;
+ right: -50px;
 }
 #result{
  font-size: 40px;
@@ -108,7 +108,7 @@ box-shadow: 0 0 10px rgb(167, 103, 87);
     overflow-x: hidden;
   }
   .fa fa-hand-rock-o ,.fa fa-hand-paper-o , .fa fa-hand-scissors-o{
-    font-size: 45px;
+    font-size: 40px;
   }
   
   #result {
@@ -117,5 +117,17 @@ box-shadow: 0 0 10px rgb(167, 103, 87);
   .badge{
  font-size: 14px;
  padding: 1.5px 5px;
+}
+.green-glow{
+border: 2px solid green;
+box-shadow: 0 0 10px rgb(87, 167, 87);
+}
+.red-glow{
+border: 2px solid red;
+box-shadow: 0 0 10px rgb(167, 103, 87);
+}
+.gray-glow{
+  border: 2px solid blue;
+  box-shadow: 0 0 10px rgb(84, 169, 202);
 }
 }
